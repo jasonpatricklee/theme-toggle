@@ -23,8 +23,10 @@ a {
 button {
   background-color: var(--button-background);
   border: 0;
+  padding: 0;
   width: 2.5rem;
   height: 2.5rem;
+  text-align: center;
   font-size: 1rem;
   border-radius: 12px;
   font-weight: 500;
@@ -33,7 +35,7 @@ button {
 }
 main {
   margin: 0 auto;
-  padding: 2rem 1.5rem;
+  padding: 2rem 1rem;
   max-width: 40em;
 }
 p {
