@@ -1,6 +1,6 @@
 html {
   --background: rgb(255, 255, 255);
-  --button-background: rgb(200, 200, 200);
+  --button-background: rgb(230, 230, 230);
   --font-color: black;
   --link-color: blue;
   font-size: 16px;
@@ -9,7 +9,7 @@ html {
 /* .dark is the class we will toggle on each click of the button */
 .dark {
   --background: rgb(25, 25, 25);
-  --button-background: rgb(80, 80, 80);
+  --button-background: rgb(50, 50, 50);
   --font-color: rgb(255, 255, 255);
   --link-color: rgb(144, 144, 249);
 }
@@ -24,10 +24,10 @@ button {
   background-color: var(--button-background);
   border: 0;
   padding: 0;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.75rem;
   border-radius: 12px;
   font-weight: 500;
   color: var(--font-color);
